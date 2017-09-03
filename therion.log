@@ -1,0 +1,205 @@
+therion 5.3.15
+initialization file: /home/user/.therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM38
+meridian convergence (deg): 1.2788
+geomag declinations (deg):
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.16
+ 2> Copyright © 1990-2014 Olly Betts
+ 3> 
+ 4> Survey contains 111 survey stations, joined by 110 shots.
+ 5> There is 1 loop.
+ 6> Survey has 2 connected components.
+ 7> Total length of survey shots =  327.06m ( 327.06m adjusted)
+ 8> Total plan length of survey shots =  164.19m
+ 9> Total vertical length of survey shots =  232.40m
+10> Vertical range = 36.34m (from 5 at 1873.13m to 93 at 1836.79m)
+11> North-South range = 9.79m (from 104 at 4788144.22m to 18 at 4788134.43m)
+12> East-West range = 28.42m (from 89 at 348438.83m to 111 at 348410.41m)
+13>   94 1-nodes.
+14>    1 4-node.
+15>    5 5-nodes.
+16>    3 6-nodes.
+17>    2 7-nodes.
+18>    3 9-nodes.
+19>    1 10-node.
+20>    1 12-node.
+21>    1 16-node.
+22> 
+######################### transcription ########################
+ 4> 111 : B4@Bulungu -- 110 : -@Bulungu
+ 5> 1 : 0@Bulungu
+ 6> 2 : -@Bulungu
+10> 5 : -@Bulungu -- 93 : -@Bulungu
+11> 104 : -@Bulungu -- 18 : 3@Bulungu
+12> 89 : -@Bulungu -- 111 : B4@Bulungu
+13> 94 : -@Bulungu
+14> 1 : 0@Bulungu
+15> 5 : -@Bulungu
+16> 3 : -@Bulungu
+17> 2 : -@Bulungu
+18> 3 : -@Bulungu
+19> 1 : 0@Bulungu
+20> 1 : 0@Bulungu
+21> 1 : 0@Bulungu
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing cave.3d ... done
+writing cave.lox ...
+processing projection plan ... done
+average distortion: 0.13%
+.. done
+copying_fonts ...
+DejaVuSerifCondensed.ttf
+DejaVuSerifCondensed-Italic.ttf
+DejaVuSerifCondensed-Bold.ttf
+DejaVuSansCondensed.ttf
+DejaVuSansCondensed-Oblique.ttf
+done.
+writing cave.pdf ...
+generating TeX metrics ... done
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015/dev/Debian) (kpathsea version 6.2.1dev)  3 SEP 2017 18:43
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [4001] [4002] [4003]
+[4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] (./mptextmp.mp) [10] [11] [12] [13] [14]
+[15] [16] [17] [18] [19] )
+ 
+Here is how much of MetaPost's memory you used:
+ 7685 strings using 156176 characters
+ 3045984 bytes of node memory
+ 1545 symbolic tokens
+ 8i,81n,16p,297b,5f stack positions out of 16i,96n,20p,312b,6f
+31 output files written: data.1 .. data.4012
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+generating TeX metrics ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdfetex 2017.7.31)  3 SEP 2017 18:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex (./thfonts.map{
+/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 69 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 268 strings out of 496580
+ 2862 string characters out of 6198814
+ 33056 words of memory out of 5000000
+ 1509 multiletter control sequences out of 15000+600000
+ 17805 words of font info for 56 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 12i,5n,8p,282b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
+{a_ha2w5f.enc}<DejaVuSansCondensed-Oblique.ttf><DejaVuSansCondensed.ttf>
+Output written on data.pdf (1 page, 56558 bytes).
+PDF statistics:
+ 77 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing model.kml ... done
+processing projection extended ... done
+average distortion: 0.07%
+writing cave_ext.xvi ... done
+writing cave_ext.pdf ...
+generating TeX metrics ... done
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015/dev/Debian) (kpathsea version 6.2.1dev)  3 SEP 2017 18:43
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [4001] [4002] [4003]
+[4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] (./mptextmp.mp) [8] )
+ 
+Here is how much of MetaPost's memory you used:
+ 14357 strings using 360420 characters
+ 2873520 bytes of node memory
+ 1400 symbolic tokens
+ 8i,81n,11p,200b,4f stack positions out of 16i,96n,12p,200b,6f
+20 output files written: data.1 .. data.4012
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+generating TeX metrics ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdfetex 2017.7.31)  3 SEP 2017 18:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex (./thfonts.map{
+/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex)
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 58 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 254 strings out of 496580
+ 2740 string characters out of 6198814
+ 35227 words of memory out of 5000000
+ 1498 multiletter control sequences out of 15000+600000
+ 17279 words of font info for 55 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 9i,5n,8p,250b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+{a_ha2w5f.enc}<DejaVuSansCondensed-Oblique.ttf><DejaVuSansCondensed.ttf>
+Output written on data.pdf (1 page, 57939 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.21%    3.47%  Bulungu-1p@Bulungu
+   0.09%    3.45%  Bulungu-2p@Bulungu
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.10%    0.48%  Bulungu-2s@Bulungu
+   0.03%    0.30%  Bulungu-1s@Bulungu
+################### end of scrap distortions ###################

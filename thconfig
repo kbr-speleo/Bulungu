@@ -1,0 +1,44 @@
+encoding  utf-8
+language ru
+
+source Bulungu.th
+
+select Bulungu
+
+select m1p@Bulungu
+select m2p@Bulungu
+
+export model -format survex
+export model
+
+layout normal
+  symbol-set BCRA
+  scale 1 200
+  doc-author "Paweł Krawczyk"
+  doc-title "Пещера Холодельник в Булугну"
+  legend on
+  statistics explo all  
+  statistics topo all
+  statistics carto all
+  statistics copyright all
+  symbol-hide group cave-centerline
+  symbol-show group text
+  symbol-show point cave-station
+  map-comment "Чегемоское ущелье, село Булунгу"
+endlayout
+
+export map -format pdf -layout normal
+export model -output model.kml
+
+layout xvi-export
+  #scale 1 200
+  grid-size 1 1 1 m
+  symbol-hide group cave-centerline
+endlayout
+
+export map -projection extended -layout xvi-export -fmt xvi -o cave_ext.xvi
+
+select m1s@Bulungu
+select m2s@Bulungu
+
+export map -projection extended -layout xvi-export -fmt pdf -o cave_ext.pdf
