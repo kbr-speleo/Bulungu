@@ -1,7 +1,7 @@
 encoding  utf-8
 # 2017.08.17 created by TopoDroid v 3.4.1h
 
-survey Bulungu -title "Пещера Холодельник в Булугну"
+survey Bulungu -title "Пещера в Булугну"
 
   centerline -author 2017 pawel.krawczyk@hush.com
     date 2017.08.15 
@@ -179,6 +179,9 @@ survey Bulungu -title "Пещера Холодельник в Булугну"
   input "Bulungu-1s.th2"
   input "Bulungu-2p.th2"
   input "Bulungu-2s.th2"
+  
+  join Bulungu-1p Bulungu-2p
+  join Bulungu-1s Bulungu-2s
 
   map m1p -projection plan
     Bulungu-1p

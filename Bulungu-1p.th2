@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -1371.25 1440.5 138.75
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -132.0 -1374.0 1444.0 141.0
+##XTHERION## xth_me_area_zoom_to 100
 
 
 
@@ -212,7 +212,7 @@ point 450.62 -845.52 station -name "4"
 
 point 457.57 -826.46 station -name "5"
 
-point 638.0 -464.25 label -text "Верхний вход"
+point 491.0 -308.25 label -text "Верхний вход"
 
 line rock-border -close on -reverse on
   605.75 -808.0
